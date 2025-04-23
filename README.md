@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
 
-## Project info
+# 💅 Mini Nail Design Interface – Maniverse Internship Task
 
-**URL**: https://lovable.dev/projects/008f8bb1-2098-4407-88ee-c45cb4801b2a
+This is my submission for the **Frontend Developer Internship at Maniverse**. It's a fully functional mini nail customization interface built with **React**, featuring nail shape and color selection along with options to save, view, edit, and delete designs.
 
-## How can I edit this code?
+## 🌐 Live Demo
 
-There are several ways of editing your application.
+[🔗 View Live Demo](https://maniverse-test.vercel.app/)
 
-**Use Lovable**
+## 📂 GitHub Repository
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/008f8bb1-2098-4407-88ee-c45cb4801b2a) and start prompting.
+[📁 View Source Code on GitHub](https://github.com/ESSY555/maniverse-test)
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Getting Started Locally
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. **Clone this repo**  
+   ```bash
+   git clone https://github.com/ESSY555/maniverse-test.git
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. **Navigate to the folder**  
+   ```bash
+   cd maniverse-test
+   ```
 
-Follow these steps:
+3. **Install dependencies**  
+   ```bash
+   npm install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4. **Start the development server**  
+   ```bash
+   npm start
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+The app will run on `http://localhost:3000`.
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🎯 Features
 
-**Edit a file directly in GitHub**
+- ✅ Select a **nail shape** (Almond, Stiletto, Square)
+- ✅ Pick a **nail color or pattern**
+- ✅ **Live preview** on a mock hand
+- ✅ **Summary screen** of the chosen shape and color
+- ✅ **Save** customized designs
+- ✅ **View** all saved designs
+- ✅ **Edit** saved designs
+- ✅ **Delete** designs from localStorage
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 🌟 Bonus Features
+- ✨ Smooth **animations** during design changes
+- 🌀 **Loader** displayed while preview updates
+- 💾 Uses **localStorage** to temporarily store designs
+- 🧩 Clean and **reusable component structure**
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🧠 Thought Process
 
-## What technologies are used for this project?
+The app is structured into modular components:
+- `ShapeSelector`
+- `ColorSwatch`
+- `HandPreview`
+- `SummaryScreen`
+- `SavedDesigns`
 
-This project is built with:
+React Hooks (`useState`, `useEffect`) were used for state management. Design changes are stored in localStorage, and animations improve user interaction. Emphasis was placed on making the UI intuitive, responsive, and brand-aligned.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 💡 Assumptions & Limitations
 
-Simply open [Lovable](https://lovable.dev/projects/008f8bb1-2098-4407-88ee-c45cb4801b2a) and click on Share -> Publish.
+- Patterns are limited to solid colors for simplicity
+- LocalStorage is used for demo purposes; no backend or authentication
+- The preview hand is a placeholder image; can be replaced with SVG or emoji
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🚀 Future Improvements
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Add **naming** for saved designs
+- Support **pattern textures or gradients**
+- Connect to a **backend** for persistent saving and user accounts
+- Improve **accessibility** (ARIA attributes, keyboard navigation)
+- Add **unit tests** for better coverage
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 👩‍🎨 UI & Branding
+
+The interface is **fun**, **clean**, and **feminine**, aligning with Maniverse's beauty-tech brand. The layout is built **mobile-first** and is fully responsive across devices.
+
+---
+
+Thank you for the opportunity! I had a lot of fun building this and would love to be part of **Maniverse** to continue crafting beautiful, user-centered digital experiences. 💖
+
+---
+
